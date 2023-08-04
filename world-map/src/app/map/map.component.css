@@ -1,0 +1,19 @@
+svg {
+    background-color: darkslategrey;
+}
+
+svg path {
+    fill: moccasin;
+    stroke: black;
+    stroke-width: 0.2px;
+}
+
+
+
+
+svg path:hover {
+    fill: rgb(255, 244, 224);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+
+}

@@ -1,0 +1,12 @@
+html {
+    margin-top: 10vh;
+}
+
+#world-map {
+    width: auto;
+    height: auto;
+}
+
+#world-map path:hover {
+    fill: dodgerblue;
+}
