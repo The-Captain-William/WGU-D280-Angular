@@ -9,16 +9,37 @@
 
 <body>
   <table>
-    <th>World Map</th>
-    <th>Country Stats</th>
+    <th>
+      <h1>World Map</h1>
+    </th>
+    <th>
+      <h2>Country Stats</h2>
+    </th>
     <tr>
-      <td>
+      <td id="world-cell">
         <app-map></app-map>
       </td>
-      <td>stats placeholder</td>
+      <td>
+        <ol>
+          <li>Country: <span>{{ countryName }}</span></li>
+          <li>Country Capital: <span>{{ countryCap }} </span></li>
+          <li>Country Latitude & Longitude: <span>{{ countryLongLat }}</span></li>
+          <li>Country Income: <span>{{ countryIncome }}</span></li>
+          <li>Country Region: <span>{{ countryRegion }}</span></li>
+        </ol>
+      </td>
     </tr>
 
   </table>
+  <div>
+    <img id="nigel"
+      src="https://vignette.wikia.nocookie.net/nickelodeon/images/b/b2/NIGEL.png/revision/latest?cb=20180816225303"
+      alt="Nigel from the Wild Thornberrys">
+    <p>Image Credit from <a href="">Nickelodeon.fandom.com</a><br>
+      API <a
+        href="https://datahelpdesk.worldbank.org/knowledgebase/articles/898581-api-basic-call-structures">WorldBank.com</a>
+    </p>
+  </div>
   <script>
     /*
   Docs & Examples:
