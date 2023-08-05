@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
 
+<div>
+<p>Video below (audio warning, made the audio too loud kinda)</p>
+<a href="https://youtu.be/7MYQ4a74qAs"><img src="https://i9.ytimg.com/vi_webp/7MYQ4a74qAs/mq2.webp?sqp=CKSst6YG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEggZShkMA8=&rs=AOn4CLCJoXr1PoYQozewR6Lng1_ocJV3TQ" width=300px></a>
+</div>
 
 ## Development server
 
